@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Neuro Health</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50">
+    <nav class="flex items-center justify-between px-4 py-6">
+      <h1 class="text-3xl font-bold text-gray-900">Neuro Health</h1>
+      <div class="flex items-center">
+        <button class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-md mr-2">Log In</button>
+        <button class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-md">Sign Up</button>
+      </div>
+    </nav>
+    <main class="px-4 py-8">
+      <div class="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+        <div class="md:col-span-1">
+          <h2 class="text-4xl font-bold mb-6">Monitor your brainwaves and get support when you need it most.</h2>
+          <p class="text-xl text-gray-700 mb-8">Neuro Health is a revolutionary app that helps you track your brainwaves and provides support when you're feeling down.</p>
+          <form class="mb-8">
+            <label for="email" class="block text-xl font-medium text-gray-700 mb-2">Enter your email to get started</label>
+            <div class="flex">
+              <input type="email" name="email" id="email" class="bg-white border border-gray-300 rounded-l-md px-4 py-2 w-full" placeholder="Enter your email address" required>
+              <button type="submit" class="bg-blue-500 hover:bg-blue-600 text-white rounded-r-md px-4 py-2 ml-2">Sign Up</button>
+            </div>
+          </form>
+          <p class="text-xl text-gray-700 mb-8">Already have an account? <a href="#" class="text-blue-500">Log in here.</a></p>
+        </div>
+        <div class="md:col-span-1">
+          <img src="https://via.placeholder.com/800x800" alt="Example image" class="w-full rounded-md">
+        </div>
+      </div>
+    </main>
+  </body>
